@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="css/styles.css">
+    <link rel="preload" href="css/styles.css">
+    <link rel="Stylesheet" href="menu.css">
+    <title>Guaru-Inicio</title>  
+
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="barra">
+            <!-- COMIENZA MENU HAMBURGUEZA OCULTO -->
+            <label for="inp-amb">
+                <img src="img/icon-menu.png" class="menu-amb">
+                <img src="img/cerrar-menu.png" class="cerrar-amb">
+            </label>
+            <input type="checkbox" id="inp-amb" checked hidden><!-- CHECADA POR DEFECTO -->
+            <!-- FINALIZA MENU HAMBURGUEZA OCULTO -->
+            <div class="logo">
+                <a href="index.html"><img class="logo" src="img/logo.jpg"></a>
+            </div>
+            <div class="menu">
+                <a href="#">MEZCAL</a>
+                <a href="#">CREMAS</a>
+                <a href="#">CONTACTO</a>
+                <a href="#">SOBRE NOSOTROS</a>
+            </div>
+            <div class="login">
+                <h1>Guarú Mezcal</h1>
+                <a href="/Login/index.html"><img src="img/usuario.png"></a>
+            </div>
+        
+    </header>
+
+    <main>
+        <section class="sec-1">
+            <div class="slider posicion"></div>
+        </section>
+
+        <section class="sec-2">
+            <p class="sub-t">Nuestros Productos</p>
+            <p class="texto">Guarú Mezcal Artesanal te ofrece una gran 
+                variedad de productos, desde nuestro tradicional Mezcal 
+                Artesanal, como las cremas Artesanales, con propiedades 
+                que debes probar para el mejoramiento de la piel.
+            </p>
+
+            <div class="scroll-sec-2">
+                <button class="btn-ant" style="width:2.5rem;" onclick="scroll_izq()" ></button>
+                <ul class="Lista-sec2">
+                    <li>
+                        <a href="#"><img src="img/scroll/5.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/scroll/3.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/scroll/2.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/scroll/5.jpg"></a>
+                    </li>
+
+                    <li>
+                        <a href="#"><img src="img/scroll/3.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/scroll/2.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/scroll/5.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/scroll/3.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/scroll/2.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/scroll/5.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/scroll/3.jpg"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/scroll/2.jpg"></a>
+                    </li>
+
+                </ul>
+                <button class="btn-sig" style="width:2.5rem;" onclick="scroll_der()"></button>
+            </div>
+
+        </section>
+
+        <section class="sec-3">
+            <p class="sub-t">#Explorar más</p>
+            <p class="texto">El mezcal es una bebida típica de México, 
+                que se obtiene de la destilación del maguey o agave, 
+                una planta suculenta con espinas y un crecimiento muy 
+                lento (unos 80 años) que muere cuando produce su fruto.</p>
+                <img src="img/imagen5.jpg" alt="" class="img-sec-3">
+        </section>
+
+        <section class="sec-4">
+            <p class="sub-t">Reglas de oro antes de tomar Mezcal...</p>
+            <p class="texto">1. Primero lo primero: El mezcal se saborea, no se shotea.</p>
+            <p class="texto">2. El precio no tiene nada que ver con la calidad.</p>
+            <p class="texto">3. El sabor no siempre es un buen indicador de calidad.</p>
+            <p class="texto">4. Agítalo y ve si hace muchas perlas (burbujas).</p>
+            <p class="texto">5. También puedes probar la calidad dentro de la botella.</p>
+            <p class="texto">6. Siempre pide tu mezcal blanco.</p>
+            <p class="texto">7. Fíjate que tu mezcal tenga por lo menos 40° de alcohol.</p>
+            <p class="texto">8. Evita el mezcal con gusano.</p>
+            <p class="texto">9. Las naranjitas son para limpiar el paladar.</p>
+            <p class="texto">10. Ten  cuidado al coctelear.</p>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="logo-f">
+            <a href="index.html"><img src="img/logo.jpg" width="120px"></a>
+        </div>
+        <div class="redes-s">
+            <a href="#"><img src="img/facebook.png" width="25px"></a>
+        </div>
+        <div class="listas">
+            <ul class="ul1">
+                <li >MEZCAL</li>
+                <li class="sub-li"><a href="#">Mezcal Joven</a></li>
+                <li class="sub-li"><a href="#">Mezcal Reposado</a></li>
+                <li class="sub-li"><a href="#">Mezcal Añejo</a></li>
+                <li class="sub-li"><a href="#">MEzcal Maduro</a></li>
+            </ul>
+            <ul class="ul2">
+                <li>CREMAS</li>
+                <li class="sub-li"><a href="#">Conócelas</a></li>
+                <li class="sub-li"><a href="#">Sabores</a></li>
+            </ul>
+            <ul class="ul3">
+                <li>CONTACTO</li>
+                <li class="sub-li"><a href="#">regalado.vero@gmail.com</a></li>
+                <li class="sub-li"><a href="#">443-371-0116</a></li>
+            </ul>
+            <ul class="ul4">
+                <li>SOBRE NOSOTROS</li>
+                <li class="sub-li"><a href="#">Morelia, México</a></li>
+                <li class="sub-li"><a href="#">¿Quiénes somos?</a></li>
+                <li class="sub-li"><a href="#">Misión y visión</a></li>
+            </ul>
+
+        </div>
+        
+        
+    </footer>
+
+    <script src="js/scroll.js"></script>
+</body>
+
+</html>
